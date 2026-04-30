@@ -1,0 +1,147 @@
+export const destinations = [
+  {
+    id: 1,
+    name: "Goa Beach Escape",
+    city: "Goa",
+    type: "Beach",
+    price: 12999,
+    days: "3 Days / 2 Nights",
+    flight: "Bengaluru → Goa",
+    hotel: "Sea View Resort",
+    emoji: "🏖️",
+  },
+  {
+    id: 2,
+    name: "Manali Snow Trip",
+    city: "Manali",
+    type: "Mountain",
+    price: 15999,
+    days: "4 Days / 3 Nights",
+    flight: "Delhi → Kullu",
+    hotel: "Hill View Cottage",
+    emoji: "🏔️",
+  },
+  {
+    id: 3,
+    name: "Jaipur Heritage Tour",
+    city: "Jaipur",
+    type: "Heritage",
+    price: 9999,
+    days: "2 Days / 1 Night",
+    flight: "Mumbai → Jaipur",
+    hotel: "Royal Palace Stay",
+    emoji: "🏰",
+  },
+  {
+    id: 4,
+    name: "Kerala Backwater Stay",
+    city: "Alleppey",
+    type: "Nature",
+    price: 17999,
+    days: "4 Days / 3 Nights",
+    flight: "Bengaluru → Kochi",
+    hotel: "Backwater Houseboat",
+    emoji: "🌿",
+  },
+  {
+    id: 5,
+    name: "Coorg Coffee Retreat",
+    city: "Coorg",
+    type: "Weekend",
+    price: 7999,
+    days: "2 Days / 1 Night",
+    flight: "Bengaluru → Mysuru",
+    hotel: "Coffee Estate Homestay",
+    emoji: "☕",
+  },
+  {
+    id: 6,
+    name: "Varanasi Spiritual Trip",
+    city: "Varanasi",
+    type: "Spiritual",
+    price: 8999,
+    days: "3 Days / 2 Nights",
+    flight: "Delhi → Varanasi",
+    hotel: "Ganga View Stay",
+    emoji: "🛕",
+  },
+];
+
+export const flights = [
+  {
+    id: 1,
+    route: "Bengaluru → Goa",
+    airline: "IndiGo",
+    time: "1h 20m",
+    price: "₹3,499",
+  },
+  {
+    id: 2,
+    route: "Delhi → Kullu",
+    airline: "Air India",
+    time: "1h 15m",
+    price: "₹4,299",
+  },
+  {
+    id: 3,
+    route: "Mumbai → Jaipur",
+    airline: "Akasa Air",
+    time: "1h 45m",
+    price: "₹3,899",
+  },
+  {
+    id: 4,
+    route: "Bengaluru → Kochi",
+    airline: "Vistara",
+    time: "1h 05m",
+    price: "₹2,999",
+  },
+];
+
+export const hotels = [
+  {
+    id: 1,
+    name: "Budget Stay",
+    price: "From ₹1,499/night",
+    details: "Clean rooms, Wi-Fi, breakfast and good location.",
+  },
+  {
+    id: 2,
+    name: "Comfort Hotel",
+    price: "From ₹2,999/night",
+    details: "AC rooms, breakfast, family-friendly stay.",
+  },
+  {
+    id: 3,
+    name: "Premium Resort",
+    price: "From ₹5,999/night",
+    details: "Pool, buffet, scenic views and resort activities.",
+  },
+];
+
+export const packages = [
+  {
+    id: 1,
+    name: "Student Budget Trip",
+    price: "₹6,999",
+    includes: "Budget stay + local travel + breakfast",
+  },
+  {
+    id: 2,
+    name: "Weekend Quick Trip",
+    price: "₹7,999",
+    includes: "Hotel + sightseeing + breakfast",
+  },
+  {
+    id: 3,
+    name: "Family Holiday Package",
+    price: "₹18,999",
+    includes: "Hotel + cab + sightseeing + meals",
+  },
+  {
+    id: 4,
+    name: "Couple Special Package",
+    price: "₹14,999",
+    includes: "Resort stay + dinner + cab",
+  },
+];
